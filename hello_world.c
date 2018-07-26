@@ -11,14 +11,8 @@ int main(void)
 	char buf[BUFFSIZE];
 
 	printf("hello world!\n");
-
-	//while((n = read(STDIN_FILENO,buf)) > 0)
-	//{
-	//	if(write(STDOUT_FILENO,buf,n) != n)
-	//	{
-			
-	//	}
-	//}
+	
+	print ("leaning git is happy\n");
 
 	printf("uid=%d,gid=%d\n",getuid(),getgid());
 	printf("hello world!\n");
